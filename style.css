@@ -93,14 +93,16 @@ body {
 
 /* ── AWARDS ── */
 
+#awards {
+   padding: 4rem 4%;
+}
+  
 #awards h2 {
   font-size: 1.75rem;
   margin-bottom: 2rem;
   border-bottom: 3px solid var(--gold);
   padding-bottom: 0.5rem;
   display: inline-block;
-  color: var(--gold);
-  padding-left: 3rem;  /* keeps heading off the edge */
 }
 
 #awards .cards {
@@ -108,7 +110,6 @@ body {
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
   align-items: stretch;
-  padding: 0 3rem;  /* keeps cards off the edge */
 }
 
 
@@ -120,6 +121,7 @@ body {
   transition: transform 0.2s, box-shadow 0.2s;
   display: flex;
   flex-direction: column;
+
 }
 
 #awards .card:hover {
