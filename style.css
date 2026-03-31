@@ -75,6 +75,8 @@ body {
   border-radius: 8px;
   padding: 1.5rem;
   transition: transform 0.2s, box-shadow 0.2s;
+  max-height: 220px;
+  overflow: hidden;
 }
 
 .card:hover {
@@ -107,14 +109,3 @@ body {
 #awards .card h3 { color: var(--gold); }
 #awards .card p  { color: var(--beige); }
 
-.card {
-  background: white;
-  border: 1px solid var(--gold);
-  border-radius: 8px;
-  padding: 1.5rem;
-  transition: transform 0.2s, box-shadow 0.2s;
-
-  /* ADD THESE TWO LINES */
-  max-height: 220px;
-  overflow: hidden;
-}
