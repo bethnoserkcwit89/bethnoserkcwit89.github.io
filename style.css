@@ -86,6 +86,25 @@ body {
 .card p  { color: var(--brown); margin-bottom: 1rem; font-size: 0.95rem; }
 .card a  { color: var(--brown); font-weight: bold; text-decoration: none; }
 .card a:hover { text-decoration: underline; }
-```
+
+/* ── AWARDS ── */
+#awards {
+  padding: 4rem 8%;
+  background-color: var(--plum);
+  color: var(--beige);
+}
+
+#awards h2 {
+  color: var(--gold);
+  border-bottom-color: var(--gold);
+}
+
+#awards .card {
+  background-color: #4e3840;
+  border-color: var(--brown);
+}
+
+#awards .card h3 { color: var(--gold); }
+#awards .card p  { color: var(--beige); }
 
 
