@@ -112,6 +112,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
   align-items: stretch;
+  padding: 0 2rem;
 }
 
 #awards .card {
