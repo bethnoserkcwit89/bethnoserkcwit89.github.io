@@ -92,11 +92,6 @@ body {
 #projects .card a:hover { text-decoration: underline; }
 
 /* ── AWARDS ── */
-#awards {
-  padding: 4rem 0;
-  background-color: var(--plum);
-  color: var(--beige);
-}
 
 #awards h2 {
   font-size: 1.75rem;
@@ -105,7 +100,7 @@ body {
   padding-bottom: 0.5rem;
   display: inline-block;
   color: var(--gold);
-  padding-left: 2rem;  /* keeps heading off the edge */
+  padding-left: 3rem;  /* keeps heading off the edge */
 }
 
 #awards .cards {
@@ -113,7 +108,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
   align-items: stretch;
-  padding: 0 2rem;  /* keeps cards off the edge */
+  padding: 0 3rem;  /* keeps cards off the edge */
 }
 
 
