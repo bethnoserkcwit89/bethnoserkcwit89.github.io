@@ -107,6 +107,14 @@ body {
 #awards .card h3 { color: var(--gold); }
 #awards .card p  { color: var(--beige); }
 
-.cards {
-  grid-template-columns: repeat(3, 1fr); /* always 3 columns */
+.card {
+  background: white;
+  border: 1px solid var(--gold);
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+
+  /* ADD THESE TWO LINES */
+  max-height: 220px;
+  overflow: hidden;
 }
