@@ -107,4 +107,6 @@ body {
 #awards .card h3 { color: var(--gold); }
 #awards .card p  { color: var(--beige); }
 
-
+.cards {
+  grid-template-columns: repeat(3, 1fr); /* always 3 columns */
+}
