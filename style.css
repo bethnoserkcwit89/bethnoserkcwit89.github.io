@@ -108,21 +108,19 @@ body {
 #awards .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  gap: 1.5rem;
   align-items: stretch;
-  padding: 0 1rem;  /* less side padding = wider cards */
+  padding: 0 2rem;
 }
 
 #awards .card {
   background-color: #4e3840;
   border: 1px solid var(--brown);
   border-radius: 8px;
-  padding: 1rem 1.5rem;  /* less top/bottom padding = shorter cards */
+  padding: 1.5rem;
   transition: transform 0.2s, box-shadow 0.2s;
   display: flex;
   flex-direction: column;
-  max-height: 200px;  /* hard cap on height */
-  overflow: hidden;
 }
 
 #awards .card:hover {
