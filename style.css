@@ -93,7 +93,7 @@ body {
 
 /* ── AWARDS ── */
 #awards {
-  padding: 4rem 4%;
+  padding: 4rem 1%;
   background-color: var(--plum);
   color: var(--beige);
 }
